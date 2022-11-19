@@ -1,0 +1,69 @@
+.hero-container {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     background-color: #fceddc;
+     padding-top: 1rem;
+}
+
+.hero-container > div {
+     display: flex;
+     justify-content: center;
+}
+
+.hero-logo {
+     width: 45%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.hero-logo > img {
+     width: 70%;
+}
+
+.hero-details {
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+}
+
+.hero-details-info {
+     margin: auto;
+     text-align: center;
+     width: 90%;
+}
+.hero-details-info {
+     font-size: 25px;
+}
+
+.hero-details-schools {
+     display: flex;
+     justify-content: center;
+     align-items: baseline;
+     padding: 1rem;
+}
+
+.hero-details-schools > div {
+     width: 50%;
+     padding: 1rem;
+     display: flex;
+     flex-direction: column;
+     justify-items: center;
+     align-items: center;
+}
+
+.hero-details-schools > div > img {
+     padding: 0.5rem;
+     margin: 0.3rem;
+}
+
+.hero-banner {
+     width: 100%;
+     position: relative;
+     background-color: #fceddc;
+}
+
+.hero-banner > img {
+     width: 100%;
+}

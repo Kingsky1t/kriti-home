@@ -1,0 +1,22 @@
+.footer-container {
+     background-color: #1a8c92;
+     width: 100%;
+     height: 3rem;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.footer-item {
+     display: flex;
+     color: white;
+     align-items: center;
+}
+
+.footer-item > p {
+     color: white;
+}
+
+.footer-icon {
+     margin: 0.2rem;
+}
